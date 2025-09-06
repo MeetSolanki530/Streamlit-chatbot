@@ -83,7 +83,7 @@ if user_input and not st.session_state.is_processing:
                             full_response += content
                             # Update display with current response + cursor
                             response_container.markdown(full_response + "▌")
-                            # time.sleep(0.05)  # Small delay for streaming effect if we want
+                            time.sleep(0.05)  # Small delay for streaming effect if we want
                 
                 # Check if streaming is finished
                 if hasattr(chunk, 'choices') and len(chunk.choices) > 0:
