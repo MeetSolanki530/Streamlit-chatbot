@@ -1,0 +1,8 @@
+langchain-g4f-chat
+streamlit
+langchain
+langchain-core
+langchain-community
+sentence-transformers
+faiss-cpu
+bs4
