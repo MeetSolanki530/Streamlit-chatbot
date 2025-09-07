@@ -1,2 +1,12 @@
 streamlit==1.49.1
 g4f==0.6.2.3
+
+### Optional only if run RAG Folder app.py
+langchain-g4f-chat
+streamlit
+langchain
+langchain-core
+langchain-community
+sentence-transformers
+faiss-cpu
+bs4
